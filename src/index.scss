@@ -1,0 +1,101 @@
+html {
+   font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+section {
+  // padding: 4em 0 4em 0;
+  padding: 0;
+}
+
+section.margin-bottom {
+  margin-bottom: 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 3.2em;
+  text-align: center;
+  margin-bottom: 2.75em;
+  position: relative;
+}
+
+h2.subtitle::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #202020;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: -30px;
+}
+
+h3 {
+  font-size: 2.8em;
+}
+
+h4 {
+  font-size: 2.2em;
+}
+
+h5 {
+  /*text-transform: uppercase;*/
+  font-size: 1.8em;
+}
+
+h6 {
+  /*text-transform: uppercase;*/
+  font-size: 1.6em;
+}
+
+p {
+  color: #909090;
+  line-height: 175%;
+  font-size: .95em;
+}
+
+figure.center img {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 15px 40px;
+  border: 2px solid #202020;
+  font-size: 1.2em;
+  margin: auto;
+  display: block;
+  color: #202020;
+  text-transform: uppercase;
+  font-weight: 700;
+  /*margin-top: 4em;*/
+  line-height: normal;
+  letter-spacing: 1px;
+  background-color: #FFF;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #202020;
+  color: #FFF;
+}
+
+button {
+  background-color: #FFF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
